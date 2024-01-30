@@ -4,10 +4,8 @@
 
 #include <QWidget>
 #include <QMessageBox>
-#include <QJsonDocument>
 #include <QFile>
 #include <QDebug>
-#include <QJsonObject>
 #include <QByteArray>
 #include <QApplication>
 #include <QSqlDatabase>

@@ -145,12 +145,12 @@
      </rect>
     </property>
     <property name="title">
-     <string>成绩添加</string>
+     <string>成绩录入</string>
     </property>
     <widget class="QLineEdit" name="lineEdit_3">
      <property name="geometry">
       <rect>
-       <x>110</x>
+       <x>80</x>
        <y>30</y>
        <width>171</width>
        <height>22</height>
@@ -160,7 +160,7 @@
     <widget class="QLineEdit" name="lineEdit_4">
      <property name="geometry">
       <rect>
-       <x>112</x>
+       <x>80</x>
        <y>70</y>
        <width>171</width>
        <height>20</height>
@@ -170,9 +170,9 @@
     <widget class="QLabel" name="label_3">
      <property name="geometry">
       <rect>
-       <x>20</x>
+       <x>10</x>
        <y>30</y>
-       <width>61</width>
+       <width>41</width>
        <height>21</height>
       </rect>
      </property>
@@ -183,9 +183,9 @@
     <widget class="QLabel" name="label_4">
      <property name="geometry">
       <rect>
-       <x>20</x>
+       <x>10</x>
        <y>70</y>
-       <width>61</width>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -196,14 +196,37 @@
     <widget class="QPushButton" name="pushButton_2">
      <property name="geometry">
       <rect>
-       <x>110</x>
+       <x>210</x>
        <y>110</y>
        <width>80</width>
        <height>41</height>
       </rect>
      </property>
      <property name="text">
-      <string>查询</string>
+      <string>录入</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>41</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>成绩</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_6">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>110</y>
+       <width>71</width>
+       <height>20</height>
+      </rect>
      </property>
     </widget>
    </widget>
